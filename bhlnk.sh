@@ -119,6 +119,7 @@ if [[ ! -d $dir/jar_temp ]]; then
 fi
 
 framework
+cd $dir/jar_temp
 services
 
 if  [ -f $dir/jar_temp/framework.jar ]; then
